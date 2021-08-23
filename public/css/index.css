@@ -1,0 +1,35 @@
+body {
+  color: #1787e0;
+}
+#artist-landing {
+  font-family: sans-serif;
+}
+#artist-landing .artist_landing {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#artist-landing .artist_landing .artist_landing_item {
+  text-align: center;
+}
+#artist-landing .artist_landing .artist_landing_item h3 {
+  color: #1787e0;
+  font-weight: bold;
+}
+#artist-landing .artist_landing .artist_landing_item button {
+  background-color: #1787e0;
+  margin-top: 10px;
+  padding: 2% 5%;
+}
+#artist-landing .artist_landing.join {
+  background-color: #d9eefa;
+}
+
+p.error {
+  color: red;
+}
+
+.nav-link {
+  cursor: pointer;
+}

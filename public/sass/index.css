@@ -1,0 +1,1003 @@
+body {
+  color: #1787e0;
+}
+
+body .btn-primary {
+  background-color: #1787e0;
+}
+
+body .container .top_padding_content {
+  height: 100vh;
+  padding-top: 5%;
+  background-color: white;
+  color: #1787e0;
+}
+
+body .link {
+  cursor: pointer;
+}
+
+/* Hidden placeholder */
+select option[disabled]:first-child {
+  display: none;
+}
+
+.progress_bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5.56%;
+}
+
+.carousel_list {
+  margin: 35px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel_list .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.carousel_list .heading .right_all {
+  position: relative;
+  top: 0.5rem;
+}
+
+div.carousel_main {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+div.carousel_main i {
+  font-size: 2rem;
+}
+
+div.carousel_main div div .chevron {
+  color: #f8f9fa;
+  font-size: 2rem;
+  padding: 10px 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #1787e0;
+  border-radius: 25px;
+  border: 0px;
+  line-height: 0;
+  font-family: "Ionicons";
+  line-height: .7;
+  display: inline-block;
+  outline: none;
+}
+
+div.carousel_main div div .right-chevron {
+  margin-left: 20px;
+}
+
+div.carousel_main div div .right-chevron::before {
+  content: "\F3D3";
+}
+
+div.carousel_main div div .left-chevron {
+  margin-right: 20px;
+}
+
+div.carousel_main div div .left-chevron::before {
+  content: "\F3D2";
+}
+
+div.carousel_main .card {
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+div.carousel_main .card div.card_item {
+  padding-top: 133.33%;
+  position: relative !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+div.carousel_main .card div.card_item .cover_image {
+  -webkit-box-pack: center !important;
+  -webkit-box-align: center !important;
+  position: absolute !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-align: center !important;
+      align-items: center !important;
+  -ms-flex-pack: center !important;
+      justify-content: center !important;
+}
+
+div.carousel_main .card div.card_item .cover_image img {
+  height: 100% !important;
+  width: 100% !important;
+  position: static !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+
+div.carousel_main .card .bookmark {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+div.carousel_main .card .bookmark i {
+  font-size: 1.4rem;
+}
+
+div.carousel_main .card .title {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+div.carousel_main .card .title i {
+  font-size: 0.1rem;
+  vertical-align: middle;
+  margin-top: -0.1rem;
+}
+
+div.carousel_main .card .name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+div.carousel_main .card .name i {
+  font-size: 1rem;
+}
+
+div.carousel_main .card .location {
+  font-size: smaller;
+}
+
+div.carousel_main .card .location i {
+  font-size: 0.8rem;
+}
+
+div.carousel_main .card .appointment {
+  font-size: smaller;
+}
+
+#artist-landing .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#artist-landing .artist_landing {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#artist-landing .artist_landing .artist_landing_item {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#artist-landing .artist_landing .artist_landing_item h3 {
+  color: #1787e0;
+  font-weight: bold;
+}
+
+#artist-landing .join {
+  background-color: #d9eefa;
+}
+
+#artist-landing .category_list {
+  margin: 35px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#artist-landing .category_list div.button {
+  width: 200px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  padding: 0 3px;
+}
+
+#artist-landing .category_list .btn-light {
+  color: #1787e0;
+  background-color: #fff;
+  border-color: #1787e0;
+  border-radius: 10px;
+  text-align: left;
+  padding: 0px 0px;
+}
+
+#artist-landing .category_list .btn-light i {
+  padding-left: 10px;
+}
+
+#artist-landing .category_list .btn-light img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px 0 0 10px;
+  margin-right: 5px;
+}
+
+#artist-landing .artist_spotlight {
+  background-color: #f3f9fd;
+  width: 100%;
+  padding: 50px;
+  margin: 35px 0px;
+}
+
+#artist-landing .artist_spotlight .photo_name_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+#artist-landing .artist_spotlight .photo_name_area .artist_photo {
+  margin-right: 20px;
+}
+
+#artist-landing .artist_spotlight .photo_name_area .artist_photo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+#artist-landing .artist_spotlight .photo_name_area .artist_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#artist-landing .artist_spotlight .photo_name_area .artist_name div h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+#artist-landing .artist_spotlight .photo_name_area .artist_name div span {
+  font-size: 0.7rem;
+  vertical-align: top;
+}
+
+#artist-landing .artist_spotlight .photo_name_area .artist_name div span i {
+  font-size: 0.1rem;
+  vertical-align: middle;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-swipe {
+  width: 90%;
+  padding-left: 10%;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-slide-wrapper .image-gallery-left-nav::before,
+#artist-landing .artist_spotlight .single_carousel .image-gallery-slide-wrapper .image-gallery-right-nav::before {
+  color: white;
+  text-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-slide-wrapper .image-gallery-left-nav,
+#artist-landing .artist_spotlight .single_carousel .image-gallery-slide-wrapper .image-gallery-right-nav {
+  color: #f8f9fa;
+  font-size: 2rem;
+  padding: 10px 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #1787e0;
+  border-radius: 25px;
+  outline: none;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-slide-wrapper .image-gallery-slides {
+  border-radius: 15px;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-slide-wrapper .image-gallery-slides .image-gallery-slide {
+  border-radius: 15px;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-slide-wrapper .image-gallery-slides .image-gallery-slide img {
+  width: 100%;
+  height: 300px;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-thumbnails-wrapper .image-gallery-thumbnails .image-gallery-thumbnail {
+  display: inline-block;
+  border: 3px solid transparent;
+  -webkit-transition: border .3s ease-out;
+  transition: border .3s ease-out;
+  width: 70px;
+}
+
+#artist-landing .artist_spotlight .single_carousel .image-gallery-thumbnails-wrapper .image-gallery-thumbnails .image-gallery-thumbnail.active {
+  border: 3px solid #1787e0;
+}
+
+#artist-landing .available_artist,
+#artist-landing .makeup_lessons {
+  width: 100%;
+  padding: 0px 50px;
+  margin: 50px 0px;
+}
+
+#artist-landing .available_artist .heading,
+#artist-landing .makeup_lessons .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#artist-landing .available_artist .cardlist .card_body,
+#artist-landing .makeup_lessons .cardlist .card_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card,
+#artist-landing .makeup_lessons .cardlist .card_body .card {
+  width: 100%;
+  border-width: 0px;
+  padding: 5px;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .image,
+#artist-landing .makeup_lessons .cardlist .card_body .card .image {
+  padding-top: 133.333%;
+  position: relative !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .image .image_cover,
+#artist-landing .makeup_lessons .cardlist .card_body .card .image .image_cover {
+  -webkit-box-pack: center !important;
+  -webkit-box-align: center !important;
+  position: absolute !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-align: center !important;
+      align-items: center !important;
+  -ms-flex-pack: center !important;
+      justify-content: center !important;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .image .image_cover img,
+#artist-landing .makeup_lessons .cardlist .card_body .card .image .image_cover img {
+  height: 100% !important;
+  width: 100% !important;
+  position: static !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  border-radius: 8px;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .bookmark,
+#artist-landing .makeup_lessons .cardlist .card_body .card .bookmark {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .title,
+#artist-landing .makeup_lessons .cardlist .card_body .card .title {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .title i,
+#artist-landing .makeup_lessons .cardlist .card_body .card .title i {
+  font-size: 0.1rem;
+  vertical-align: middle;
+  margin-top: -0.1rem;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .name,
+#artist-landing .makeup_lessons .cardlist .card_body .card .name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .name i,
+#artist-landing .makeup_lessons .cardlist .card_body .card .name i {
+  font-size: 1rem;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .location,
+#artist-landing .makeup_lessons .cardlist .card_body .card .location {
+  font-size: smaller;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .location i,
+#artist-landing .makeup_lessons .cardlist .card_body .card .location i {
+  font-size: 0.8rem;
+}
+
+#artist-landing .available_artist .cardlist .card_body .card .appointment,
+#artist-landing .makeup_lessons .cardlist .card_body .card .appointment {
+  font-size: smaller;
+}
+
+#artist-profile .loader {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#artist-profile .container {
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+#artist-profile .container .body {
+  width: 100%;
+}
+
+#artist-profile .container .body .top_banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#artist-profile .container .body .top_banner button {
+  border: none !important;
+  width: 100% !important;
+  padding: 0px !important;
+  background: transparent !important;
+  text-align: inherit !important;
+  cursor: pointer !important;
+  display: block !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 2px;
+}
+
+#artist-profile .container .body .top_banner button .banner_item {
+  padding-top: 133.333%;
+  position: relative !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+  border: solid 2px #b7d5ee;
+}
+
+#artist-profile .container .body .top_banner button .banner_item .cover_image {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  position: absolute !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#artist-profile .container .body .top_banner button .banner_item .cover_image img {
+  height: 100% !important;
+  width: 100% !important;
+  position: static !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+
+#artist-profile .container .body .top_banner button:last-child div {
+  margin-right: 0px;
+}
+
+#artist-profile .container .body .top_banner .left_top_menu {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+
+#artist-profile .container .body .top_banner .left_top_menu i {
+  font-size: 1.5rem;
+  color: #1787e0;
+}
+
+#artist-profile .container .body .top_banner .left_top_menu .dropdown-setting-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 2;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: .25rem;
+}
+
+#artist-profile .container .body .top_banner .left_top_menu .dropdown-setting-menu .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #1787e0;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+#artist-profile .container .body .top_banner .left_top_menu .dropdown-setting-menu .dropdown-item p {
+  margin-bottom: 0px;
+  padding: 0.35rem 0;
+}
+
+#artist-profile .container .body .top_banner .left_top_menu .dropdown-setting-menu .dropdown-item:last-child p {
+  border-top: solid #b7d5ee 1px;
+}
+
+#artist-profile .container .body .top_banner .left_bottom_menu {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+}
+
+#artist-profile .container .body .top_banner .left_bottom_menu i {
+  font-size: 1.5rem;
+  color: #1787e0;
+}
+
+#artist-profile .container .body .top_banner .right_top_menu {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#artist-profile .container .body .top_banner .right_top_menu div {
+  margin-right: 15px;
+}
+
+#artist-profile .container .body .top_banner .right_top_menu div i {
+  font-size: 1.5rem;
+  color: #1787e0;
+}
+
+#artist-profile .container .body .profile_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier {
+  padding: 10px 30px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .photo_name_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .photo_name_area .artist_photo img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .photo_name_area .artist_name {
+  margin-left: 10px;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .about span {
+  font-size: 0.8rem;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .instagram .sub_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .instagram .imagelist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .instagram .imagelist .item {
+  position: relative;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .instagram .imagelist .item .cover_image {
+  padding-top: 133.33%;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .instagram .imagelist .item .cover_image div {
+  -webkit-box-pack: center !important;
+  -webkit-box-align: center !important;
+  position: absolute !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-align: center !important;
+      align-items: center !important;
+  -ms-flex-pack: center !important;
+      justify-content: center !important;
+  margin: 5px;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .instagram .imagelist .item .cover_image div img {
+  height: 100% !important;
+  width: 100% !important;
+  position: static !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  border-radius: 8px;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .services .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .services .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .left_content .services .description p {
+  width: calc(100% - 95px);
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .right_panel div.cover_date {
+  border: solid 1px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .right_panel div.cover_date div.date_input {
+  border: solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .right_panel div.cover_date div.date_input .react-datepicker-wrapper {
+  width: 100%;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .right_panel div.cover_date div.date_input input {
+  width: calc(100% - 10px);
+  outline: none;
+  border-width: 0 !important;
+}
+
+#artist-profile .container .body .profile_body .profile_body_contanier .right_panel div.cover_date div.date_input i {
+  font-size: 1.5rem;
+}
+
+p.error {
+  color: red;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+div .button {
+  width: 125px;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin-bottom: 15px;
+}
+
+.modal-body .share_list .item {
+  cursor: pointer;
+}
+
+.full-screen-modal .modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  max-width: 100%;
+}
+
+.full-screen-modal .modal-dialog .modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #3c7dcf;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-header {
+  border-bottom: solid 1px;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content {
+  width: 100%;
+  max-width: 620px;
+  /* The custom check container for profile categor*/
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .categoryList div.item {
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .categoryList div.item .active {
+  border-color: #1787e0;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container {
+  /* display: block;
+                              position: relative;
+                              padding-left: 35px;
+                              margin-bottom: 12px; */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container .checkmark {
+  /* position: absolute;
+                              top: 0;
+                              left: 0;
+                              height: 25px; */
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #1787e0;
+  border: solid 2px #d9eefa;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container .checkmark .service_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container .checkmark .service_price {
+  text-align: right;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container .checkmark .service_price span {
+  font-size: 0.7rem;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container:hover input ~ .checkmark {
+  background-color: #1787e0;
+  color: #fff;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container input:checked ~ .checkmark {
+  background-color: #fff;
+  border: solid #1787e0 2px;
+  color: #1787e0;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .modal-body-container .modal-body-content .cat_container:hover input:checked ~ .checkmark {
+  background-color: #1787e0;
+  border: solid #1787e0 2px;
+  color: #fff;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-swipe {
+  width: 90%;
+  padding-left: 10%;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-index {
+  right: -25px;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-left-nav::before,
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-right-nav::before {
+  color: white;
+  text-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-left-nav,
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-right-nav {
+  color: #f8f9fa;
+  font-size: 2rem;
+  padding: 10px 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #1787e0;
+  border-radius: 25px;
+  outline: none;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-slides {
+  border-radius: 15px;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-slides .image-gallery-slide {
+  border-radius: 15px;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-slide-wrapper .image-gallery-slides .image-gallery-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-thumbnails-wrapper .image-gallery-thumbnails .image-gallery-thumbnail {
+  display: inline-block;
+  border: 3px solid transparent;
+  -webkit-transition: border .3s ease-out;
+  transition: border .3s ease-out;
+  width: 70px;
+}
+
+.full-screen-modal .modal-dialog .modal-content .modal-body .profileGallery .image-gallery-thumbnails-wrapper .image-gallery-thumbnails .image-gallery-thumbnail.active {
+  border: 3px solid #1787e0;
+}
+/*# sourceMappingURL=index.css.map */

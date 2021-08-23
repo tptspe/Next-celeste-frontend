@@ -1,0 +1,682 @@
+.profile .profile_back {
+  position: relative;
+}
+
+.profile .profile_back img {
+  height: auto;
+  width: 100%;
+}
+
+.profile .profile_back .profile_avatar {
+  width: 110px;
+  height: 110px;
+  box-sizing: border-box;
+  border: 6px solid white;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  bottom: -54px;
+  left: 17%;
+}
+
+.profile .profile_back .profile_avatar img {
+  width: 110px;
+  height: 110px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.profile .profile_back button.view {
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+  bottom: 15px;
+  right: 3%;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #bdbdbd;
+  border: none;
+}
+
+.profile .profile_back .request {
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+  bottom: 15px;
+  right: 18.5%;
+  background-color: #0ccc59;
+  padding: 10px 20px;
+  font-weight: bold;
+  bottom: -43px;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.profile .profile_content {
+  margin: auto 7%;
+  padding-top: 5%;
+}
+
+.profile .profile_content .intro h1 {
+  text-align: center;
+}
+
+.profile .profile_content .intro .skill_group {
+  display: flex;
+  justify-content: center;
+}
+
+.profile .profile_content .intro .skill_group .skill {
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: #f9f9f9;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.profile .profile_content .intro .location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.profile .profile_content .intro .location i {
+  font-size: 26px;
+  color: #0ccc59;
+}
+
+.profile .profile_content .intro .location p {
+  font-style: italic;
+  margin-left: 10px;
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.profile .profile_content .intro .reply {
+  text-align: center;
+  font-style: italic;
+  color: #8f8f8f;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.profile .profile_content .intro .numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.profile .profile_content .intro .numbers .numbers_item {
+  text-align: center;
+}
+
+.profile .profile_content .intro .numbers .numbers_item .number {
+  color: #0ccc59;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.profile .profile_content .intro .numbers .numbers_item .title {
+  font-weight: bold;
+}
+
+.profile .profile_content .intro .numbers .numbers_item .icon_group {
+  font-size: 30px;
+}
+
+.profile .profile_content .intro .numbers .numbers_item .icon_group i {
+  font-size: 30px;
+}
+
+.profile .profile_content .intro .numbers .numbers_item .icon_group i.active {
+  color: #0ccc59;
+}
+
+.profile .profile_content .intro .numbers .numbers_item .icon_group i.inactive {
+  color: #d8d8d8;
+}
+
+.profile .profile_content .intro .book_link {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.profile .profile_content .intro .book_link div {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.profile .profile_content .intro .book_link div a {
+  color: black;
+  text-decoration: none;
+}
+
+.profile .profile_content .intro .book_link div a:hover {
+  color: darkgrey;
+}
+
+.profile .profile_content .intro .social_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.profile .profile_content .intro .social_group a {
+  color: black;
+}
+
+.profile .profile_content .intro .social_group a:hover {
+  color: grey;
+}
+
+.profile .profile_content .intro .social_group .i_item {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.profile .profile_content .intro .social_group .i_item i {
+  font-size: 25px;
+}
+
+.profile .profile_content .pricing h3 {
+  margin-bottom: 20px;
+}
+
+.profile .profile_content .pricing .pricing_item {
+  display: flex;
+  justify-content: space-around;
+  padding: 0% 10%;
+  margin-bottom: 20px;
+}
+
+.profile .profile_content .pricing .pricing_item .text {
+  padding-right: 10%;
+}
+
+.profile .profile_content .pricing .pricing_item .text .bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile .profile_content .pricing .pricing_item .text .des {
+  color: #8f8f8f;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.profile .profile_content .pricing .pricing_item .price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile .profile_content .products .card {
+  border: none;
+}
+
+.profile .profile_content .products .card .card-body {
+  padding: 10px 0px;
+}
+
+.profile .profile_content .instagram .instagram_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile .profile_content .instagram .instagram_header i {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.profile .profile_content .instagram .instagram_header h3 {
+  margin-bottom: 0px;
+}
+
+.profile .profile_content .instagram .card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile {
+  height: 100vh;
+  padding-top: 5%;
+  background-color: white;
+  color: #1787e0;
+  /*#1787e0*/
+}
+
+.profile .container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.profile .container .row {
+  max-width: 680px;
+  margin: 0;
+  width: 100%;
+}
+
+.profile .container .row .form-label {
+  font-weight: 600;
+}
+
+.profile .container .row .input {
+  border-color: #1787e0;
+  color: #1787e0;
+}
+
+.profile .container .row .textarea {
+  border-color: #1787e0;
+  color: #1787e0;
+}
+
+.profile .container .row .column-2-space {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profile .container .row .column-2-space .rightButton {
+  width: 25%;
+  text-align: right;
+}
+
+.profile .container .row .column-2-start {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 25px 0px;
+}
+
+.profile .container .row .column-2-start img {
+  border-radius: 15px;
+  width: 160px;
+  height: 160px;
+}
+
+.profile .container .row .column-2-start .button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 45px;
+}
+
+.profile .container .row .column-2-start .button-group button {
+  margin-bottom: 8px;
+}
+
+.profile .container .row input[type="file"].hidden {
+  display: none;
+}
+
+span.button {
+  width: 125px;
+  cursor: pointer;
+}
+
+span.button.confirm {
+  width: 125px;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.profile .container .row input::placeholder {
+  color: #1787e0;
+}
+
+.profile .container .row textarea::placeholder {
+  color: #1787e0;
+}
+
+.profile .page-navs {
+  width: 100%;
+  /* padding: 0px 15px; */
+  margin: 45px 0;
+}
+
+.profile button.btn .btn-blur {
+  color: #1787e0;
+  background-color: #d1e7f9;
+  border-color: #d4eafd;
+  font-weight: 600;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+  color: #1787e0 !important;
+  background-color: #d1e7f9 !important;
+  border-color: #d4eafd !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+}
+
+.profile .row .description {
+  margin: 20px 0;
+}
+
+.profile .row .categorySubTitle {
+  font-weight: 700;
+  margin: 0px 0 15px 0;
+}
+
+.profile .row .categoryList div.item {
+  /* border: solid 2px #d9eefa; */
+  border-radius: 5px;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile .row .categoryList div.item .active {
+  border-color: #1787e0;
+}
+
+/* The custom check container for profile categor*/
+.cat_container {
+  /* display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px; */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hide the browser's default checkbox */
+.cat_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.cat_container .checkmark {
+  /* position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px; */
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #1787e0;
+  border: solid 2px #d9eefa;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.cat_container:hover input ~ .checkmark {
+  background-color: #1787e0;
+  color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cat_container input:checked ~ .checkmark {
+  background-color: #fff;
+  border: solid #1787e0 2px;
+  color: #1787e0;
+}
+
+.cat_container:hover input:checked ~ .checkmark {
+  background-color: #1787e0;
+  border: solid #1787e0 2px;
+  color: #fff;
+}
+
+.profile .uploadImageList .item {
+  text-align: center;
+}
+
+.profile .uploadImageList .item i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+}
+
+.profile .uploadImageList .title {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.profile .uploadImageList .title i {
+  margin: 11px 8px 0px 0px;
+  font-size: 2rem;
+  /* -webkit-transform: rotate(45deg); */
+  transform: rotate(-30deg);
+}
+
+.profile .uploadImageList .delete {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* profile complete page */
+#profile-checklist .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #acd4f4;
+}
+
+#profile-checklist .list-item .description {
+  margin-right: 15px;
+}
+
+#profile-checklist .list-item h3 {
+  font-weight: bold;
+}
+
+#profile-checklist .list-item .right-span {
+  min-width: 90px;
+  text-align: right;
+}
+
+#profile-checklist .list-item .right-span .btn {
+  background-color: #acd4f4;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#profile-checklist .list-item .right-span i {
+  color: #acd4f4;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+#profile-checklist .list-item.active {
+  color: #1787e0;
+}
+
+#profile-checklist .list-item.active .right-span .btn {
+  background-color: #1787e0;
+}
+
+#profile-checklist .list-item.active .right-span i {
+  color: #1787e0;
+}
+
+#profile-checklist .container .row {
+  display: block !important;
+}
+
+/* service page */
+
+.profile div.service {
+  border: solid #acd4f4 2px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px !important;
+}
+
+.profile div.service .item {
+  padding: 20px 20px;
+}
+
+.profile div.service .item .body {
+  padding: 0px;
+  width: calc(100% - 125px);
+}
+
+.profile div.service .item .body p {
+  display: -webkit-box;
+  height: 50px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.625;
+}
+
+.profile div.service .item .action {
+  padding: 0px;
+  max-width: 125px;
+}
+
+.profile div.service .item .action label {
+  cursor: pointer;
+}
+
+.profile div.service .item .action .center {
+  text-align: center;
+  cursor: pointer;
+}
+
+.profile div.service .item .action .center .hidden {
+  display: none;
+}
+
+.profile div.service .details .left_detail {
+  margin-right: 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+input,
+select {
+  border-color: #acd4f4 !important;
+  border-width: 2px !important;
+  color: #1787e0 !important;
+  height: calc(2.5em + 0.75rem + 2px) !important;
+}
+
+textarea {
+  border-color: #acd4f4 !important;
+  border-width: 2px !important;
+  color: #1787e0 !important;
+}
+
+textarea::placeholder {
+  color: #1787e0 !important;
+}
+
+div.modal .column-2-start {
+  display: flex;
+  justify-content: flex-start;
+  /* padding: 0 0 25px 0px; */
+  width: 100%;
+}
+
+div.modal .column-2-start label.small {
+  font-size: 0.98rem;
+}
+
+div.modal .column-2-space {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profile .btn-primary {
+  color: #fff !important;
+}
+
+.profile .row .nopadding {
+  padding: 0px !important;
+}
+
+.profile .row .divider15 {
+  margin-bottom: 15px;
+}
+
+.profile .row .rightSpace15 {
+  padding-right: 15px !important;
+}
+
+.profile .lineNo {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.profile .subTitle3 {
+  font-weight: 700;
+  /* font-size: 1.1rem; */
+}
+
+.profile .detail.leftSpace25 {
+  margin-left: 25px;
+}
+
+.profile .container .smallrow {
+  max-width: 530px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+select.police_select {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.profile .templateOut {
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.profile .templateInner {
+  border: solid 2px #acd4f4;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .templateInner label {
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  font-weight: 600;
+}
+
+.profile .templateInner i {
+  font-size: 1.5rem;
+}
+
+.profile .templateInner .column-2-space {
+  padding: 0 20px;
+}

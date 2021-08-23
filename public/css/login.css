@@ -1,0 +1,113 @@
+.login1 {
+   height: 100vh;
+   padding-top: 5%;
+   background-color: #d9eefa;
+}
+ .login1 .container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+ .login1 .container .row {
+   width: 60%;
+   padding: 20px 0px;
+   background-color: white;
+   border: 1px solid #eee;
+}
+ .login1 .container .row .divider {
+   margin-bottom: 10px;
+   margin-top: 10px;
+   border: 1px solid #eee;
+   width: 100%;
+}
+ .login1 .container .row .login_header {
+   width: 100%;
+   text-align: center;
+   padding: 10px 30px;
+}
+ .login1 .container .row .login_content {
+   width: 100%;
+   padding: 10px 30px;
+}
+ .login1 .container .row .login_content form {
+   width: 100%;
+}
+ .login1 .container .row .login_content form label {
+   font-weight: bold;
+}
+ .login1 .container .row .login_content form input::placeholder {
+   color: #cdcccc;
+}
+ .login1 .container .row .login_content form a {
+   color: #aba1a1;
+   text-decoration: underline;
+}
+
+.login1 .container .row .login_content form .error {
+   color: red;
+}
+
+.login1 .container .row .login_content form .success {
+   color: blue;
+}
+
+ .login1 .container .row .login_content form button {
+   width: 100%;
+   background-color: black;
+   color: white;
+   border-radius: 0px !important;
+   border: none;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+ .login1 .container .row .login_footer {
+   width: 100%;
+   text-align: center;
+   padding: 10px 30px;
+}
+ .login1 .container .row .login_footer h3 {
+   margin-bottom: 1rem;
+}
+ .login1 .container .row .login_footer .btn_group {
+   margin-bottom: 1rem;
+}
+ .login1 .container .row .login_footer .btn_group button {
+   padding: 10px 20px;
+   background-color: white;
+   border-radius: 25px;
+   border: 1px solid #ddd;
+}
+.login1 .container .row .login_footer .btn_group button:first-child {
+   margin-right: 25px;
+}
+ .login1 .container .row .login_footer .btn_group .google i {
+   color: #de5843;
+   margin-right: 5px;
+}
+ .login1 .container .row .login_footer .btn_group .facebook i {
+   color: #4f73be;
+   margin-right: 5px;
+}
+ .login1 .container .row .login_footer .link {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ .login1 .container .row .login_footer .link p {
+   margin-bottom: 0px;
+}
+ .login1 .container .row .login_footer .link p span {
+   color: #cdcccc;
+}
+
+.login1 .container .row .login_footer .link p a {
+   color:black;
+   text-decoration: none;
+}
+
+ .login1 .container .row .login_footer .link button {
+   background-color: white;
+   padding: 10px 20px;
+   border: 1px solid #ddd;
+}
+ 

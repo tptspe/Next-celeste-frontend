@@ -1,0 +1,51 @@
+.navbar {
+    border-bottom: 1px solid #1787e0;
+    padding: 0px 10px;
+    min-height: 52px;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #1787e0;
+}
+.navbar .navbar-nav .nav-link {
+    font-weight: bold;
+    color: #1787e0;
+}
+.navbar .navbar-nav .dropdown-toggle i {
+    font-size: 33px;
+    color: #1787e0;
+}
+.navbar .navbar-nav .dropdown-toggle::after {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+.navbar .navbar-nav .dropdown-menu {
+    left: -100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 1px solid #acd4f4;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+    padding: 0px 10px;
+    color: #1787e0;
+
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item p {
+    border-bottom: 1px solid #1787e0;
+    padding: 16px 0px;
+    margin-bottom: 0px;
+    color: #1787e0;
+    font-weight: bold;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:last-child p {
+    border-bottom: 0px;
+} 

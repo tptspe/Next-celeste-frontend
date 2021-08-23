@@ -1,0 +1,136 @@
+.account {
+    height: 100vh;
+    padding-top: 5%;
+    background-color: white;
+    color: #1787e0;
+}
+.account .container {
+    display: flex;
+   /* justify-content: center;
+    */
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    padding: 0 15px;
+}
+.account .container .row {
+    max-width: 680px;
+    margin: 0;
+    width: 100%;
+}
+.account .container .row .nav-tabs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin-bottom: 20px;
+}
+.account .container .row .nav-tabs .nav-link {
+    border: none;
+    color: #a2cff3;
+    font-weight: bold;
+    font-size: 18px;
+}
+.account .container .row .nav-tabs .nav-link.active {
+    color: #1787e0;
+}
+.account .container .row .tab-content {
+    width: 100%;
+}
+.account .container .row .tab-content .tab-pane h5 {
+    margin-bottom: 15px;
+}
+.account .container .row .tab-content .tab-pane .notifications, .account .container .row .tab-content .tab-pane .subscriptions {
+    padding: 20px;
+    border: 2px solid #1787e0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group, .account .container .row .tab-content .tab-pane .subscriptions .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label {
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    clear: both;
+    border: 2px solid #74b7ec;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label input, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label input:checked ~ .checkbox-custom, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label input:checked ~ .checkbox-custom {
+    background-color: #fff;
+    border-radius: 5px;
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    border: 2px solid #fff;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label input:checked ~ .checkbox-custom::after, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label input:checked ~ .checkbox-custom::after {
+    transform: rotate(45deg) scale(1);
+    opacity: 1;
+    left: 9px;
+    top: -8px;
+    width: 12px;
+    height: 22px;
+    border: solid #74b7ec;
+    border-width: 0px 4px 4px 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label input:checked ~ .checkbox-custom::before, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label input:checked ~ .checkbox-custom::before {
+    left: -3px;
+    top: -3px;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    transform: scale(3);
+    opacity: 0;
+    z-index: 999;
+    transition: all 0.3s ease-out;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label .checkbox-custom, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label .checkbox-custom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all 0.3s ease-out;
+    border: 2px solid #fff;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label .checkbox-custom::after, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label .checkbox-custom::after {
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+    border: solid #009bff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(0deg) scale(0);
+    opacity: 1;
+    transition: all 0.3s ease-out;
+}
+.account .container .row .tab-content .tab-pane .notifications .form-group .checkbox-label .checkbox-custom::before, .account .container .row .tab-content .tab-pane .subscriptions .form-group .checkbox-label .checkbox-custom::before {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 10px;
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
